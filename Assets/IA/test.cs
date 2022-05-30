@@ -96,6 +96,7 @@ public class test : MonoBehaviour
             ++nb_ciseaux;
             Debug.Log("Ciseaux s'incrémente" + nb_ciseaux);
         }
+        
         ppierre = (nb_pierre / total) * 100;
         Debug.Log(nb_pierre / total);
         ppapier = (nb_papier / total) * 100;
